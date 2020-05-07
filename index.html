@@ -1,0 +1,69 @@
+<DOCTYPE! html>
+<html>
+<head>
+  <title>Grade assigner</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="body">
+	<script type="text/javascript" id="d">
+		var phy=prompt("Enter the marks pf Physics");
+		var chm=prompt("Enter the marks of Chemistry");
+		var mth=prompt("Enter the marks of Maths");
+		var sum=Number(phy)+Number(chm)+Number(mth);
+		document.write("Marks in Physics\n=\n"+phy);
+		document.write("<br>");
+		document.write("Marks in Chemistry\n=\n"+chm);
+		document.write("<br>");
+		document.write("Marks in Maths\n=\n"+mth)
+		document.write("<br>");
+		document.write("<br>");
+		document.write("Marks obtained\n=\n"+sum);
+		document.write("<br>");
+			var t=300;
+		document.write("Total Marks\n=\n"+t)
+		document.write("<br>");
+		document.write("Marks obtained\n=\n"+sum);
+		var p=sum/t*100;
+		document.write("<br>");
+		document.write("Percentage\n=\n"+p+"%");
+		document.write("<br>");
+		if (p>=95) {
+			document.write("Congratulations your Grade is A+");
+		}
+		else if (p>=90) {
+			document.write("Congratulations your Grade is A");
+		}
+		else if (p>=85) {
+			document.write("Congratulations your Grade is B+");
+		}
+		else if (p>=80) {
+			document.write("Congratulations your Grade is B");
+		}
+		else if (p>=70) {
+			document.write("Congratulations your Grade is C");
+		}
+		else if (p>=50) {
+			document.write("PASS");
+		}
+		else{
+			document.write("FAIL");
+		}
+
+
+
+
+
+	  // function add(a,b){
+	  // 	var c=(a+b);
+	  // }
+	  
+	  // add(10,20);
+	  // document.write(c);
+
+	</script>
+</body>
+</html>
+
+
+
+	
